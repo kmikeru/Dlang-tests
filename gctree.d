@@ -13,6 +13,10 @@ pause:375 ms, 548 μs, and 1 hnsec
 pause:389 ms, 894 μs, and 3 hnsecs
 finished 8 secs, 222 ms, and 363 μs
 
+The longest time in GC is taken by stacks scan:
+10.740965:     scan stacks.
+11.127984:     scan roots[]
+
 */
 Node[] save;
 int nodes=1000;
