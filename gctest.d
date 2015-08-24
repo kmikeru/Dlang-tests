@@ -13,8 +13,6 @@ void testFn(){
     }
     x[1]=1.0f;
     y[1]=4.0f;
-    //writeln("in func");
-    //writeln(x[895..905]);
 }
 
 void thrFunc(){
